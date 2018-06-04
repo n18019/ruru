@@ -1,3 +1,3 @@
 #!/bin/bash
 
-cat file1 file2 file3 | sort | uniq | sed /^A/d
+cat sample/file{1..3} | sort | uniq | sed /^A/d
